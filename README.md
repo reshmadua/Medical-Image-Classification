@@ -1,2 +1,4 @@
 # Medical-Image-Classification
-Classifying Pulmonary Embolism cases in Chest CT scans using VGG16 and XGBOOST
+## Classifying Pulmonary Embolism cases in Chest CT scans using VGG16 and XGBOOST
+
+Pulmonary Embolism, often referred to as PE is a condition in which a blood clot becomes trapped in a pulmonary artery and prevents flow of blood to the lungs. If left ignored, this might be life-threatening and, in most circumstances, fatal. Since the identification of whether a scan contains an embolus or not is a cumbersome process, we propose an approach using VGG16 and XGBOOST to classify whether an image contains an embolus or not. The dataset used has been downloaded from Kaggle and Segregated into two classes, namely ‘PE’ (The images that contain embolus) and ‘No PE’ (The images without any embolus in the lungs). Each directory contains over 1000 images. The methodology employed in this paper using VGG16 to extract features and XGBOOST to further classify images rendered an accuracy of 97.59% and a sensitivity of 97.00% with 5 misclassifications.
